@@ -13,3 +13,9 @@ Upload **all files and the assets folder** to the root of the `cutdepartment-sit
 
 ## Domain
 Configure `cutdepartment.com` under GitHub Pages before updating Hover DNS. Keep existing Google Workspace MX and TXT records intact.
+
+
+## Version 3 changes
+- Removed duplicate bottom-left NYC footer; NYC remains under the homepage tagline.
+- Instagram, TikTok and YouTube icons appear in the top-right navigation even before URLs are entered. Unconfigured icons are intentionally inactive. Set real URLs in `script.js` to activate them.
+- About typography and image spacing tightened for typical desktop viewport heights. Short mobile screens may still scroll so text remains readable.

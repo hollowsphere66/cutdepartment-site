@@ -7,7 +7,7 @@ const SOCIAL_LINKS = {
 for(const [name,url] of Object.entries(SOCIAL_LINKS)){
   if(!url)continue;
   document.querySelectorAll(`[data-social="${name}"]`).forEach(a=>{
-    a.href=url;a.hidden=false;a.target='_blank';a.rel='noopener noreferrer';
+    a.href=url;a.removeAttribute('aria-disabled');a.removeAttribute('title');a.target='_blank';a.rel='noopener noreferrer';
   });
 }
 const dialog=document.querySelector('#info-dialog');
