@@ -1,33 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#080808">
-  <meta name="description" content="Cut Department — Selections from the margins of the dance floor. New York City.">
-  <title>Cut Department — NYC</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <main class="landing" aria-label="Cut Department homepage">
-    <!-- Desktop reproduces the approved image exactly. Accessible, interactive links overlay the pictured labels. -->
-    <div class="desktop-links">
-      <a class="hotspot about-hit" href="about.html" aria-label="About Cut Department"></a>
-      <button class="hotspot contact-hit" data-panel="contact" aria-label="Contact Cut Department"></button>
-      <a class="hotspot instagram-hit" data-social="instagram" aria-label="Instagram" hidden></a>
-      <a class="hotspot tiktok-hit" data-social="tiktok" aria-label="TikTok" hidden></a>
-      <a class="hotspot youtube-hit" data-social="youtube" aria-label="YouTube" hidden></a>
-    </div>
-    <div class="mobile-content">
-      <div class="mobile-top"><div class="brand">CUT<br>DEPARTMENT</div><nav aria-label="Main navigation"><a href="about.html">ABOUT</a><button data-panel="contact">CONTACT</button></nav></div>
-      <div class="mobile-message"><h1>Selections from<br>the margins of<br>the dance floor.</h1><div class="small-rule"></div><p>NEW YORK CITY</p></div>
-      <nav class="mobile-social" aria-label="Social media"><a data-social="instagram" hidden>INSTAGRAM</a><a data-social="tiktok" hidden>TIKTOK</a><a data-social="youtube" hidden>YOUTUBE</a></nav>
-    </div>
-  </main>
-  <dialog id="info-dialog" aria-labelledby="dialog-title">
-    <button id="close-dialog" aria-label="Close">×</button>
-    <div id="dialog-content"></div>
-  </dialog>
-  <script src="script.js"></script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070707"><meta name="description" content="Cut Department — selections from the margins of the dance floor. New York City."><title>Cut Department — New York City</title><link rel="stylesheet" href="styles.css"></head><body class="home-page">
+<main class="hero">
+<header class="site-header"><a class="brand" href="index.html" aria-label="Cut Department home"><span>CUT</span><span>DEPARTMENT</span></a><nav class="header-nav" aria-label="Main navigation"><a href="about.html">ABOUT</a><button type="button" data-panel="contact">CONTACT</button><span class="nav-divider" aria-hidden="true"></span><span class="icon-social"><a data-social="instagram" aria-label="Instagram" hidden>IG</a><a data-social="tiktok" aria-label="TikTok" hidden>TT</a><a data-social="youtube" aria-label="YouTube" hidden>YT</a></span></nav></header>
+<section class="hero-message"><h1>Selections from<br>the margins of<br>the dance floor.</h1><div class="rule"></div><p>NEW YORK CITY</p></section>
+<footer class="home-footer"><span>NEW YORK CITY</span><nav aria-label="Social media"><a data-social="instagram" hidden>INSTAGRAM</a><a data-social="tiktok" hidden>TIKTOK</a><a data-social="youtube" hidden>YOUTUBE</a></nav></footer>
+</main><dialog id="info-dialog" aria-labelledby="dialog-title"><button type="button" id="close-dialog" aria-label="Close">×</button><div id="dialog-content"></div></dialog><script src="script.js"></script></body></html>
